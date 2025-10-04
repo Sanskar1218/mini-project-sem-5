@@ -1,0 +1,10 @@
+body { font-family: Inter, system-ui, sans-serif; background:#f4f7fb; color:#111; }
+main { max-width:900px; margin:32px auto; padding:16px; }
+h1{ margin:0 0 16px }
+.row{ display:flex; gap:8px; margin-bottom:12px }
+.card{ background:white; padding:12px; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,.06); margin-bottom:12px }
+.hidden{ display:none }
+label{ display:block; margin:6px 0 }
+button{ padding:8px 12px; border-radius:6px; border:none; background:#2563eb; color:white; cursor:pointer }
+.output{ background:#0f172a; color:#d1fae5; padding:8px; border-radius:6px; max-height:360px; overflow:auto }
+select,input[type=text],input[type=number]{ padding:6px; border:1px solid #e2e8f0; border-radius:6px }
